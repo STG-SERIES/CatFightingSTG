@@ -4,9 +4,7 @@ Paper 1.21.11 plugin port of [Cat Fighting](https://www.curseforge.com/minecraft
 
 Cats argue, hiss, and brawl in survival worlds. Fights are visual only — cats never take fight damage. You can also flatten cats with a shovel or a moving minecart.
 
-Vanilla clients work as-is. Players do **not** need Fabric, Forge, or NeoForge.
-
-> **Do not put the CurseForge Fabric/Forge/NeoForge jar in `plugins`.** Those are mods, not Paper plugins. Use the Paper jar from [Releases](../../releases).
+> **Vanilla clients work as-is. Players do **not** need Fabric, Forge, or NeoForge.**
 
 ## Download
 
