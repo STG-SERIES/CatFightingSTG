@@ -126,7 +126,7 @@ src/main/resources/
 ## Credits
 
 - Original mod: [Chesy](https://www.curseforge.com/minecraft/mc-mods/cat-fighting)
-- Paper port: Kostas (STGHECKER / STG-SERIES)
+- Paper port: STGHECKER (STG-SERIES)
 
 ## License
 
