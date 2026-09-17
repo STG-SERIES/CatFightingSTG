@@ -1,0 +1,20 @@
+name: CatFighting
+version: '${project.version}'
+main: dev.catfighting.CatFightingPlugin
+api-version: '1.21'
+folia-supported: false
+authors:
+  - Chesy
+  - Kostas
+description: Paper port of Cat Fighting. Cats quarrel, fight visually without damage, and can be flattened.
+website: https://www.curseforge.com/minecraft/mc-mods/cat-fighting
+commands:
+  catfighting:
+    description: Reload config or flatten/unflatten the cat you are looking at.
+    aliases: [catfight, cf]
+    usage: /<command> <reload|flatten|unflatten>
+    permission: catfighting.admin
+permissions:
+  catfighting.admin:
+    description: Use /catfighting admin commands
+    default: op

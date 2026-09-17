@@ -1,0 +1,39 @@
+# Cat Fighting for Paper 1.21.11
+# Port of https://www.curseforge.com/minecraft/mc-mods/cat-fighting (MIT, by Chesy)
+#
+# Fights are visual only. Cats never deal or take fight damage.
+
+fights:
+  enabled: true
+  # Sitting cats never start or stay in a fight.
+  skip-sitting: true
+  tamed-cats-can-fight: true
+  same-owner-can-fight: true
+  kittens-can-fight: false
+  # How often a cat looks for a quarrel, in ticks (20 ticks = 1 second).
+  check-interval-ticks: 40
+  # Chance to start a fight when another eligible cat is nearby.
+  start-chance: 0.08
+  search-range: 8.0
+  melee-range: 1.45
+  duration-ticks: 160
+  cooldown-ticks: 400
+  hiss-interval-ticks: 22
+  swipe-interval-ticks: 10
+  fight-speed: 1.7
+  knockback: 0.08
+
+flatten:
+  enabled: true
+  shovel: true
+  minecart: true
+  # Minimum minecart speed before a cat gets flattened.
+  minecart-min-speed: 0.28
+  # Vanilla clients cannot pancake on Y only, so this uses the SCALE attribute.
+  # 1.2.1 of the original mod raised flattened cats so they were not underground;
+  # SCALE is applied from the feet, so they stay on the ground.
+  scale: 0.22
+  # Right-click a flattened cat with an empty hand while sneaking to restore it.
+  sneak-right-click-unflatten: true
+  # Hitting a flattened cat with a shovel pops it back up.
+  shovel-toggles: true
